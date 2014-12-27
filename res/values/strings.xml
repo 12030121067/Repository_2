@@ -7,5 +7,22 @@
     <string name="button">Click</string>
     <string name="btn">LowerCase</string>
     <string name="text">EditText</string>
-
+    <string name="btn1">One</string>
+    <string name="btn2">Two</string>
+    <string name="btn3">Three</string>
+    <string name="btn4">Four</string>
+    <string name="btn5">Five</string>
+    <string name="btn6">Six</string>
+    <string name="btn7">Seven</string>
+    <string name="btn8">Eight</string>
+    <string name="btn9">Nine</string>
+    <string name="btn10">Ten</string>
+    <string name="btn11">Eleven</string>
+    <string name="btn12">Twelve</string>
+    <string name="btn13">Thirteen</string>
+    <string name="btn14">Fourteen</string>
+    <string name="btn15">Fifteen</string>
+    <string name="title_activity_checked_change_listener">CheckedChangeListenerActivity</string>
+    <string name="lCase">Lower Case</string>
+    <string name="uCase">Upper Case</string>
 </resources>

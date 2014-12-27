@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.newactivity);
         
         Click = (Button) findViewById(R.id.newbutton4);
         Text =(EditText) findViewById(R.id.text4);

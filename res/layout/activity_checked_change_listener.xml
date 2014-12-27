@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CheckedChangeListenerActivity" 
+    android:orientation="vertical">
+	<EditText
+	        android:id="@+id/editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:layout_marginBottom="78dp"
+	        android:ems="10" >
+	
+	        <requestFocus />
+	    </EditText>
+	    
+    <RadioGroup
+        android:id="@+id/rgCase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+        <RadioButton
+            android:id="@+id/lCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/lCase" />
+
+        <RadioButton
+            android:id="@+id/uCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uCase" />
+
+        
+    </RadioGroup>
+
+    
+
+</LinearLayout>
